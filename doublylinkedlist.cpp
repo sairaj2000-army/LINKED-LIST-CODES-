@@ -229,7 +229,7 @@ void dll::delete_by_postion()
         }
         else
         {
-            int i=2;
+            int i=1;
             while( i<=position-1 && temp!=NULL )
             {
                 temp=temp->next;
